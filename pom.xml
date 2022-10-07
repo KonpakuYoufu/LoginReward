@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.konpakuyoufu</groupId> <!-- Replace with your groupId -->
+    <artifactId>LoginReward</artifactId> <!-- Replace with your plugin name. -->
+    <version>1.0.0</version> <!-- The template's version corresponds to the latest API version. -->
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- 在这里添加你的依赖 -->
+        <dependency>
+            <groupId>xyz.grasscutters</groupId>  <!-- 库名称，也可以自定义 -->
+            <artifactId>grasscutter</artifactId>    <!--库名称，也可以自定义-->
+            <version>1.3.1</version> <!--版本号-->
+            <scope>system</scope> <!--作用域-->
+            <systemPath>${project.basedir}/libs/grasscutter-1.3.1.jar</systemPath> <!--项目根目录下的lib文件夹下-->
+        </dependency>
+    </dependencies>
+
+</project>

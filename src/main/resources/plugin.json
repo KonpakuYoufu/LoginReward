@@ -1,0 +1,8 @@
+{
+  "name": "LoginReward",
+  "description": "When players login in, give them bonus.",
+  "version": "1.0.0",
+  "authors": [ "Konpaku_Youfu" ],
+  
+  "mainClass": "com.github.konpakuyoufu.LoginBonus"
+}
